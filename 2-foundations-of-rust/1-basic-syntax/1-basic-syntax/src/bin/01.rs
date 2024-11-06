@@ -2,8 +2,8 @@ fn main() {
     println!("{}", multiply(10, 20));
 }
 
-fn multiply(a: i32, b: i32) {
-    a * b
+fn multiply(a: i32, b: i32) -> i32 {
+    return a * b;
 }
 
 // Tests; run with `cargo test --bin 01`
